@@ -40,6 +40,9 @@ Expressive is a suite of tools to aid in writing client and server applications 
 ### Install: ###
     npm install expressive --save
 
+### Follow-Along Install: ###
+    npm install expressive expressive-express --save
+
 <br>
 <br>
 
