@@ -5,7 +5,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
 <br>
 
 
-### Simple example: ###
+### Simple server example: ###
 
     const routes = {
       user: function(name, callback) {
@@ -15,6 +15,18 @@ Expressive is a suite of tools to aid in writing client and server applications 
     
     const expressive = require('expressive')(routes)
     expressive.start()
+    
+<br>
+
+### Simple React-Native client example: ###
+
+    import Fetch from 'expressive-react-fetch'
+    
+    const routes = 'http://example.com/routes'
+    const fetch = fetch(routes)
+    
+    let user = await fetch.users.read(userId)
+    // Do something with user 
     
 <br>
 
