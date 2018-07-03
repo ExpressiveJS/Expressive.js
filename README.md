@@ -66,3 +66,8 @@ Expressive is a suite of tools to aid in writing client and server applications 
 <br>
 
 ### Documentation ###
+
+<br>
+
+### License: ###
+#### MIT: https://opensource.org/licenses/MIT ####
