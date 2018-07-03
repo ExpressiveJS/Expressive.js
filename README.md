@@ -32,8 +32,8 @@ Expressive is a suite of tools to aid in writing client and server applications 
 
 ### Protocols implemented: ### 
 - Express
-- Socket.io
-- mqtt
+- Socket.io [In-Progress]
+- mqtt [In-Progress]
 
 <br>
 
