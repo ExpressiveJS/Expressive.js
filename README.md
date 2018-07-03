@@ -23,7 +23,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
     import Fetch from 'expressive-react-fetch'
     
     const routes = 'http://example.com/routes'
-    const fetch = fetch(routes)
+    const fetch = Fetch(routes)
     
     let user = await fetch.users.read(userId)
     // Do something with user 
