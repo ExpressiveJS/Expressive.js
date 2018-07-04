@@ -89,4 +89,4 @@ Expressive is a suite of tools to aid in writing client and server applications 
 <br>
 
 ### License: ###
-#### MIT: https://opensource.org/licenses/MIT ####
+#### [MIT LICENSE](https://github.com/bugs181/Expressive/blob/master/LICENSE) ####
