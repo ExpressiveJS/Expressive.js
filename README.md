@@ -45,6 +45,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
 - :heavy_check_mark: Configurable
 - :heavy_check_mark: Nested capable Object structure defines your routes
 - :heavy_check_mark: CRUD-L (Create, Read, Update, Delete, List) routing capabilities
+- :heavy_check_mark: Custom CRUD-L verbiage terms
 - :heavy_check_mark: Auth/Validation routes run before your CRUD routes (with filtering support)
 - :heavy_check_mark: Automatic parameter destructuring
 - :soon: Extendable Plugin architecture for new Protocols
