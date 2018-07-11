@@ -50,7 +50,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
 - 📦 Dynamic Client-side routing file (stop hard-coding domain paths!)
 - 📦 Isometric (Re-use the same code on both client and server)
 - :tent: CommonJS, ES6, AMD builds available
-- :tent: CLI tooling to create new Expressive projects with sane defaults
+- :warning: CLI tooling to create new Expressive projects with sane defaults
 
 <br>
 
