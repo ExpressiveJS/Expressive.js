@@ -39,6 +39,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
 :speech_balloon: Proposal <br>
 :no_entry_sign: Rejected <br>
 
+<br>
 
 ### Features: ### 
 - :heavy_check_mark: Configurable
