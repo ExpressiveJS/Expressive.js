@@ -56,12 +56,15 @@ Expressive is a suite of tools to aid in writing client and server applications 
 
 ### Protocols implemented: ### 
 #### Servers: ####
-- Express
-- Socket.io [In-Progress]
-- mqtt [In-Progress]
+- :heavy_check_mark: [Express](https://expressjs.com) ([Github](https://github.com/expressjs/express))
+- 📦 Socket.io
+- 📦 [Axon](https://github.com/tj/axon) ([AMP](https://github.com/tj/node-amp-message))
+- :tent: mqtt
 
 #### Clients: ####
-- React Native [In-Progress]
+- 📦 React Native Fetch
+- :tent: React Native Socket.io
+- :tent: React Native AMP
 
 <br>
 
