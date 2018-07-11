@@ -72,8 +72,11 @@ Expressive is a suite of tools to aid in writing client and server applications 
 ### Install: ###
     npm install expressive --save
 
-### Follow-Along Install: ###
-    npm install expressive expressive-express --save
+### CLI tool Example: ###
+    npm install expressive-cli -g
+    expressive init myProject
+    expressive install express
+    expressive start
 
 <br>
 <br>
