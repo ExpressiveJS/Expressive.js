@@ -93,8 +93,9 @@ Expressive is a suite of tools to aid in writing client and server applications 
 - :heavy_check_mark: Route functions lets you omit CRUD-L terms for quick single routes
 - :heavy_check_mark: Auth/Validation routes run before your CRUD routes (with filtering support)
 - :heavy_check_mark: Automatic parameter destructuring
-- :heavy_check_mark: Simple Plugin architecture for new Protocols, just 3 methods!
 - :heavy_check_mark: Context support for routes to access low-level Protocol API
+- :heavy_check_mark: Simple Plugin architecture for new Protocols, just 3 methods!
+- :heavy_check_mark: Simple Plugin architecture for logging Plugins
 - :soon: Hot/Live reload Plugin architecture
 - 📦 Dynamic Client-side routing file (No more hard-coding URL paths!)
 - 📦 Isometric (Re-use the same code on both client and server)
@@ -104,7 +105,6 @@ Expressive is a suite of tools to aid in writing client and server applications 
 - :speech_balloon: Route specific verb terms
 - :speech_balloon: Async/Await support for route functions
 - :speech_balloon: Port to TypeScript
-- :speech_balloon: Custom logging Plugins
 
 <br>
 
@@ -122,6 +122,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
 
 #### Loggers: ####
 - :heavy_check_mark: [ANSI Console](https://github.com/TooTallNate/ansi.js) - [Plugin](https://github.com/bugs181/expressive-ansi-console)
+- :tent: [Logstash](https://www.elastic.co/products/logstash)
 
 <br>
 
