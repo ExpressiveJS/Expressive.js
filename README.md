@@ -30,6 +30,50 @@ Expressive is a suite of tools to aid in writing client and server applications 
     
 <br>
 
+#### CRUD-L (Create, Read, Update, Delete, List) example: ####
+    const routes = {
+      users: {
+        create: function(user, password, callback) {
+    
+        },
+    
+        read: function(user, callback) {
+          callback(null, 'OKAY')
+        },
+    
+        ...
+      },
+    }
+
+<br>
+
+####  Custom CRUD-L terms: #### 
+
+    const terms = {
+      verbs: {
+        create: 'post',
+        read: 'get',
+        update: 'put',
+        delete: 'delete',
+        list: 'options',
+        
+        auth: 'auth',
+        
+        // Partial terms are coming soon!
+      }
+    }
+
+    const routes = {
+      users: {
+        post: createUser, // Function
+        get: getUser, // Function
+        ...
+      }
+    }
+
+<br>
+<br>
+
 ### Icon Key: ###
 :heavy_check_mark: Complete <br>
 :soon: Almost done <br>
@@ -84,57 +128,8 @@ Expressive is a suite of tools to aid in writing client and server applications 
 <br>
 <br>
 
-### More examples: ###
-
-#### CRUD-L (Create, Read, Update, Delete, List) example: ####
-    const routes = {
-      users: {
-        create: function(user, password, callback) {
-    
-        },
-    
-        read: function(user, callback) {
-          callback(null, 'OKAY')
-        },
-    
-        ...
-      },
-    }
-
-    const expressive = require('expressive')(routes)
-    expressive.start()
-
-<br>
-
-####  Custom CRUD-L terms: #### 
-
-    const terms = {
-      verbs: {
-        create: 'post',
-        read: 'get',
-        update: 'put',
-        delete: 'delete',
-        list: 'options',
-        
-        auth: 'auth',
-        
-        // Partial terms are coming soon!
-      }
-    }
-
-    const routes = {
-      users: {
-        post: createUser, // Function
-        get: getUser, // Function
-        ...
-      }
-    }
-    
-    const expressive = require('expressive')(routes, terms)
-    expressive.start()
-
 ### Documentation ###
-
+- [Auth / Validation routes]()
 <br>
 
 ### License: ###
