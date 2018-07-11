@@ -85,6 +85,33 @@ Expressive is a suite of tools to aid in writing client and server applications 
 
 <br>
 
+####  Custom CRUD-L terms: #### 
+
+    const terms = {
+      verbs: {
+        create: 'post',
+        read: 'get',
+        update: 'put',
+        delete: 'delete',
+        list: 'options',
+        
+        auth: 'auth',
+        
+        // Partial terms are coming soon!
+      }
+    }
+
+    const routes = {
+      users: {
+        post: createUser, // Function
+        get: getUser, // Function
+        ...
+      }
+    }
+    
+    const expressive = require('expressive')(routes, terms)
+    expressive.start()
+
 ### Documentation ###
 
 <br>
