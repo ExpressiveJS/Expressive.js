@@ -104,6 +104,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
 - :speech_balloon: Route specific verb terms
 - :speech_balloon: Async/Await support for route functions
 - :speech_balloon: Port to TypeScript
+- :speech_balloon: Custom logging Plugins
 
 <br>
 
