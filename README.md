@@ -33,6 +33,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
 ### Features: ### 
 - Nested capable Object structure defines your routes
 - CRUD-L (Create, Read, Update, Delete, List) routing capabilities
+- Auth/Validation routes run before your CRUD routes (with filtering support)
 - Dynamic Client-side routing file (stop hard-coding domain paths!)
 - Isometric (Re-use the same code on both client and server)
 - Automatic parameter destructuring
