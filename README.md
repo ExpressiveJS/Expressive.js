@@ -41,14 +41,14 @@ Expressive is a suite of tools to aid in writing client and server applications 
 
 
 ### Features: ### 
+- :heavy_check_mark: Configurable
 - :heavy_check_mark: Nested capable Object structure defines your routes
 - :heavy_check_mark: CRUD-L (Create, Read, Update, Delete, List) routing capabilities
 - :heavy_check_mark: Auth/Validation routes run before your CRUD routes (with filtering support)
-- 📦 Dynamic Client-side routing file (stop hard-coding domain paths!)
-- 📦 Isometric (Re-use the same code on both client and server)
 - :heavy_check_mark: Automatic parameter destructuring
 - :soon: Extendable Plugin architecture for new Protocols
-- :heavy_check_mark:Configurable
+- 📦 Dynamic Client-side routing file (stop hard-coding domain paths!)
+- 📦 Isometric (Re-use the same code on both client and server)
 - :tent: CommonJS, ES6, AMD builds available
 - :tent: CLI tooling to create new Expressive projects with sane defaults
 
