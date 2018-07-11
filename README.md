@@ -106,7 +106,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
 
 ### Protocols implemented: ### 
 #### Servers: ####
-- :heavy_check_mark: [Express](https://expressjs.com) ([Github](https://github.com/expressjs/express))
+- :heavy_check_mark: [Express](https://expressjs.com) ([Github](https://github.com/expressjs/express)) - [Plugin](https://github.com/bugs181/expressive-express)
 - 📦 Socket.io
 - 📦 [Axon](https://github.com/tj/axon) ([AMP](https://github.com/tj/node-amp-message))
 - :tent: mqtt
