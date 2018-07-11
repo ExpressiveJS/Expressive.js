@@ -120,6 +120,9 @@ Expressive is a suite of tools to aid in writing client and server applications 
 - :tent: React Native Socket.io
 - :tent: React Native AMP
 
+#### Loggers: ####
+- :heavy_check_mark: [ANSI Console](https://github.com/TooTallNate/ansi.js) - [Plugin](https://github.com/bugs181/expressive-ansi-console)
+
 <br>
 
 ### Install: ###
