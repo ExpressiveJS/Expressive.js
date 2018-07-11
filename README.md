@@ -99,6 +99,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
 - :warning: CLI tooling to create new Expressive projects with sane defaults
 - :speech_balloon: Custom 404 routes
 - :speech_balloon: Route specific verb terms
+- :speech_balloon: Async/Await support for route functions
 
 <br>
 
