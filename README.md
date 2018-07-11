@@ -40,6 +40,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
 - Extendable Plugin architecture for new Protocols
 - Configurable
 - CommonJS, ES6, AMD builds available
+- CLI tooling to create new Expressive projects with sane defaults
 
 <br>
 
