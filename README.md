@@ -53,6 +53,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
 - :tent: CommonJS, ES6, AMD builds available
 - :warning: CLI tooling to create new Expressive projects with sane defaults
 - :speech_balloon: Custom 404 routes
+- :speech_balloon: Route specific verb terms
 
 <br>
 
