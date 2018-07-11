@@ -30,7 +30,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
     
 <br>
 
-### Features Key: ###
+### Icon Key: ###
 :heavy_check_mark: Complete <br>
 :soon: Almost done <br>
 📦 Work in Progress <br>
