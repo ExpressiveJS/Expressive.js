@@ -4,6 +4,31 @@ Expressive is a suite of tools to aid in writing client and server applications 
 # Coming Very Soon! #
 <br>
 
+### Simple server example: ###
+
+    const routes = {
+      user: function(name, callback) {
+        callback(null, `Username: ${name}`)
+      },
+    }
+    
+    const expressive = require('expressive')(routes)
+    expressive.start()
+    
+<br>
+
+### Simple client example: ###
+
+    import Fetch from 'expressive-react-fetch'
+    
+    const routes = 'http://example.com/routes'
+    const fetch = Fetch(routes)
+    
+    let user = await fetch.users.read(userId)
+    // Do something with user 
+    
+<br>
+
 ### Icon Key: ###
 :heavy_check_mark: Complete <br>
 :soon: Almost done <br>
@@ -67,31 +92,6 @@ Expressive is a suite of tools to aid in writing client and server applications 
     expressive start
 
 <br>
-<br>
-
-### Simple server example: ###
-
-    const routes = {
-      user: function(name, callback) {
-        callback(null, `Username: ${name}`)
-      },
-    }
-    
-    const expressive = require('expressive')(routes)
-    expressive.start()
-    
-<br>
-
-### Simple React-Native client example: ###
-
-    import Fetch from 'expressive-react-fetch'
-    
-    const routes = 'http://example.com/routes'
-    const fetch = Fetch(routes)
-    
-    let user = await fetch.users.read(userId)
-    // Do something with user 
-    
 <br>
 
 #### CRUD-L (Create, Read, Update, Delete, List) example: ####
