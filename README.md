@@ -51,6 +51,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
 - :heavy_check_mark: Context support for routes to access low-level Protocol API
 - :heavy_check_mark: Simple Plugin architecture for new Protocols, just 3 methods!
 - :heavy_check_mark: Simple Plugin architecture for logging Plugins
+- :warning: Extend the route object syntax with Transpiler Plugins.
 - :soon: Hot/Live reload Plugin architecture
 - 📦 Dynamic Client-side routing file (No more hard-coding URL paths!)
 - 📦 Isometric (Re-use the same code on both client and server)
