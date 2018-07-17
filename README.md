@@ -57,7 +57,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
 - 📦 Isometric (Re-use the same code on both client and server)
 - :tent: CommonJS, ES6, AMD builds available
 - :warning: CLI tooling to create new Expressive projects with sane defaults
-- :warning: Web UI tool to organize projects, quickly create routes. Full support for config, logging.
+- :warning: UI tool to organize projects, quickly create routes. Full support for config, logging.
 - :speech_balloon: Custom 404 routes
 - :speech_balloon: Route specific verb terms
 - :speech_balloon: Async/Await support for route functions
