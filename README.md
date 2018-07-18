@@ -17,6 +17,8 @@ your logic the way you want. Expressive has a full-blown UI tool to help you cre
     const routes = {
       user: function(name, callback) {
         callback(null, `Username: ${name}`)
+        or
+        return await `Username: ${name}`
       },
     }
     
