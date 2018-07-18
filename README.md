@@ -95,7 +95,10 @@ your logic the way you want. Expressive has a full-blown UI tool to help you cre
 <br>
 
 ### Install: ###
+    cd myProject
+    npm init -y
     npm install expressive --save
+    npm start
 
 ### CLI tool Example: ###
     npm install expressive-cli -g
@@ -110,11 +113,11 @@ your logic the way you want. Expressive has a full-blown UI tool to help you cre
     const routes = {
       users: {
         create: function(user, password, callback) {
-    
+          callback(null, 'Created user')
         },
     
         read: function(user, callback) {
-          callback(null, 'OKAY')
+          callback(null, 'Reading user')
         },
     
         ...
