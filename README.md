@@ -1,13 +1,13 @@
-# Expressive
-Expressive is a new way to write applications without all the junk. 
+# Expressive.js
+Expressive.js is a new way to write applications without all the junk. 
 
 Most notably, it can be used to write client and server applications with ease, using only a simple javascript object format. 
 
-Expressive is highly configurable and can easily be extended in many facets using a simple plugin architecture. 
+Expressive.js is highly configurable and can easily be extended in many facets using a simple plugin architecture. 
 Framework developers provide a simple abstraction layer for things like loggers, protocols, data consumers, and even route transformations. 
 
 To the end user (you!), none of that matters except getting to Express
-your application the way you want. Expressive has a full-featured UI tool to help you create projects without writing a single line of code!
+your application the way you want. Expressive.js has a full-featured UI tool to help you create projects without writing a single line of code!
 
 # Coming Very Soon! #
 <br>
@@ -67,7 +67,7 @@ your application the way you want. Expressive has a full-featured UI tool to hel
 - 📦 Dynamic Client-side routing file (No more hard-coding URL paths!)
 - 📦 Isometric (Re-use the same code on both client and server)
 - :tent: CommonJS, ES6, AMD builds available
-- :warning: CLI tooling to create new Expressive projects with sane defaults
+- :warning: CLI tooling to create new Expressive.js projects with sane defaults
 - :warning: UI tool to organize projects, quickly create routes. Full support for config, logging.
 - :speech_balloon: Custom 404 routes
 - :speech_balloon: Route specific verb terms
@@ -161,4 +161,4 @@ your application the way you want. Expressive has a full-featured UI tool to hel
 <br>
 
 ### License: ###
-#### [MIT LICENSE](https://github.com/bugs181/Expressive/blob/master/LICENSE) ####
+#### [MIT LICENSE](https://github.com/bugs181/Expressive.js/blob/master/LICENSE) ####
