@@ -83,6 +83,9 @@ your logic the way you want. Expressive has a full-blown UI tool to help you cre
 - 📦 [Axon](https://github.com/tj/axon) ([AMP](https://github.com/tj/node-amp-message))
 - :tent: mqtt
 
+#### Middlewear: ####
+- :heavy_check_mark: [expressive-middlewear](https://github.com/bugs181/expressive-middleware)
+
 #### Clients: ####
 - 📦 React Native Fetch
 - :tent: React Native Socket.io
