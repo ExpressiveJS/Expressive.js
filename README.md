@@ -7,7 +7,7 @@ Expressive is highly configurable and can easily be extended in many facets usin
 Framework developers provide a simple abstraction layer for things like loggers, protocols, data consumers, and even route transformations. 
 
 To the end user (you!), none of that matters except getting to Express
-your logic the way you want. Expressive has a full-blown UI tool to help you create projects without writing a single line of code!
+your logic the way you want. Expressive has a full-featured UI tool to help you create projects without writing a single line of code!
 
 # Coming Very Soon! #
 <br>
