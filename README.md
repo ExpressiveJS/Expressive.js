@@ -1,5 +1,13 @@
 # Expressive
-Expressive is a suite of tools to aid in writing client and server applications with ease, using only simple javascript objects and functions.
+Expressive is a new way to write applications without all the junk. 
+
+Most notably, it can be used to write client and server applications with ease, using only a simple javascript object format. 
+
+Expressive is highly configurable and can easily be extended in many facets using a simple plugin architecture. 
+Framework developers provide a simple abstraction layer for things like loggers, protocols, data consumers, and even route transformations. 
+
+To the end user (you!), none of that matters except getting to Express
+your logic the way you want. Expressive has a full-blown UI tool to help you create projects without writing a single line of code!
 
 # Coming Very Soon! #
 <br>
@@ -46,6 +54,7 @@ Expressive is a suite of tools to aid in writing client and server applications 
 - :heavy_check_mark: CRUD-L (Create, Read, Update, Delete, List) routing syntax
 - :heavy_check_mark: Custom CRUD-L verbiage terms
 - :heavy_check_mark: Route functions lets you omit CRUD-L terms for quick single routes
+- :warning: Route functions can be marked as private and only accessible to your business logic
 - :heavy_check_mark: Auth/Validation routes run before your CRUD routes (with filtering support)
 - :heavy_check_mark: Automatic parameter destructuring
 - :heavy_check_mark: Context support for routes to access low-level Protocol API
